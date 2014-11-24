@@ -1,0 +1,141 @@
+#menu {
+	
+	padding-left:120px;
+	
+}
+#menu li {
+	margin:2px;
+	padding:0; 
+	float:left;}
+#menu ul 
+{
+	padding:0;
+	list-style-type: none;
+	text-align: center;
+}
+#contenido {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	margin-top:20px;
+	width:550px;
+	float: left;
+}
+#logo {
+	background-image: url(../img/logo.jpg);
+	width:900px;
+	height:150px;
+	padding:0;
+	margin:0;
+	background-repeat: repeat-x;
+}
+#subseccion {
+	float:left;
+	width:102px;
+	margin-top:20px;
+	margin-right:20px;
+	
+}
+#news {
+	float:left;
+	width:150px;
+	margin-top:20px;
+	margin-left:20px;
+	text-align:left;
+	
+}
+#central {
+	clear: both;
+}
+
+#subseccion li 
+{
+	margin:2px;
+	padding:0; 
+}
+#subseccion ul 
+{
+	margin:0;
+	padding:0;
+	list-style-type: none;
+}
+
+.subsectionunsel {
+	display:block;
+	
+	padding:4px 0;
+	text-decoration:none;
+	text-align:center;
+	font-size:11px;
+	color:#FFFFFF;
+	background-color:#CCCCCC;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.subsectionunsel:hover {
+	color:#99CC00;
+	background-color:#003366;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.subsectionsel
+{
+	display:block;
+	
+	padding:4px 0;
+	text-decoration:none;
+	text-align:center;
+	font-size:11px;
+	color:#99CC00;
+	background-color:#003366;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.menuunsel
+{
+	display:block;
+	width:100px;
+	padding:4px 0;
+	text-decoration:none;
+	text-align:center;
+	font-size:11px;
+	color:#FFFFFF;
+	background-color:#000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.menuunsel:hover
+{
+	color:#99CC00;
+	background-color:#003366;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.menusel
+{
+	display:block;
+	width:100px;
+	padding:4px 0;
+	text-decoration:none;
+	text-align:center;
+	font-size:11px;
+	color:#99CC00;
+	background-color:#003366;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+
+}
+
+#contenedor {
+	width: 900px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+}
+
+#footer {
+	clear: both;
+	text-align: center;
+}
+
+#footer a
+{
+	margin:5px;
+}

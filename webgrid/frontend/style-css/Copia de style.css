@@ -1,0 +1,103 @@
+body {
+	font-size: 62.5%;
+	background-color: #CCCCCC;
+	margin:0em auto 0em auto;
+	
+}
+#contenido {
+	width:100%;
+	position:relative;		
+}
+
+#cabecera {
+	position:relative;
+	margin:4.0em auto 0 auto;
+	width:99.8em;
+	height:10.7em;
+	z-index:1;
+	background-color:#FFFFFF;
+	clear:both;
+	background-image: url(../images/fondo.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+    #logo{
+	position:relative;
+	margin:0 auto 0 auto;
+	float: left;
+	clear:both;
+	z-index:1;
+	padding-top:2.9em;
+	padding-left:6.5em;
+    }
+#idioma {
+	position:relative;
+	margin:-1.5em auto 0 auto;
+	width:99.8em;
+	height:3.0em;
+	background-color:#FFFFFF;
+	clear:both;
+	z-index:2;
+}
+
+#menu {
+	position:relative;
+	margin:0 auto 0 auto;
+	width:99.8em;
+	height:5.0em;
+	background-color:#3399CC;
+	clear:both;
+	z-index:3;
+}
+.ul_idioma {
+	background-color: #FFFFFF;
+	position:relative;
+	padding-left:70.5em;
+}
+#central {
+	position:relative;
+	margin:0 auto 0 auto;
+	width:99.8em;
+	height:11.5em;
+	background-color: #9966CC;
+	clear:both;
+	z-index:4;
+	
+}
+#pie {
+	position:relative;
+	margin:0 auto 0 auto;
+	width:99.8em;
+	height:5.0em;
+	background-color: #CCCC00;
+	clear:both;
+	z-index:5;
+	
+}
+.lista_idioma {
+	list-style-image:url(../images/icono_azul.gif);
+	position:relative;
+	float: left;
+	padding-right:3.5em;
+	padding-left:0.1em;
+	padding-top:1em;
+}
+
+.link_idioma {
+	position:relative;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 0.9em;
+	font-weight: normal;
+	color: #666666;
+	text-decoration: none;
+	display:block;
+	
+}
+.link_idioma:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 0.9em;
+	font-weight: normal;
+	color: #101A4B;
+
+}
+

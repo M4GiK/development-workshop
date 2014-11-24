@@ -1,0 +1,56 @@
+[05-Apr-2007 19:38:57] PHP Parse error:  syntax error, unexpected T_FUNCTION in /home/mardo/public_html/PFC/admin/content/index.php on line 11
+[05-Apr-2007 19:39:25] PHP Parse error:  syntax error, unexpected T_FUNCTION in /home/mardo/public_html/PFC/admin/content/index.php on line 11
+[05-Apr-2007 19:39:27] PHP Parse error:  syntax error, unexpected T_FUNCTION in /home/mardo/public_html/PFC/admin/content/index.php on line 11
+[05-Apr-2007 19:40:12] PHP Parse error:  syntax error, unexpected T_INC, expecting ')' in /home/mardo/public_html/PFC/admin/content/index.php on line 50
+[05-Apr-2007 19:42:11] PHP Parse error:  syntax error, unexpected T_INC, expecting ')' in /home/mardo/public_html/PFC/admin/content/index.php on line 50
+[05-Apr-2007 19:42:23] PHP Parse error:  syntax error, unexpected T_INC, expecting ')' in /home/mardo/public_html/PFC/admin/content/index.php on line 50
+[05-Apr-2007 19:42:55] PHP Parse error:  syntax error, unexpected ')' in /home/mardo/public_html/PFC/admin/content/index.php on line 52
+[05-Apr-2007 19:43:20] PHP Warning:  Missing argument 1 for contentManager::getSections(), called in /home/mardo/public_html/PFC/admin/content/index.php on line 49 and defined in /home/mardo/public_html/PFC/management/contentManagement/contentManager.php on line 67
+[05-Apr-2007 19:43:20] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/mardo/public_html/PFC/management/contentManagement/contentManager.php on line 93
+[10-Apr-2007 19:14:25] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/mardo/public_html/PFC/management/contentManagement/contentManager.php on line 153
+[10-Apr-2007 19:19:41] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/mardo/public_html/PFC/admin/content/saveSection.php on line 4
+[10-Apr-2007 19:20:27] PHP Warning:  mysql_query(): supplied argument is not a valid MySQL-Link resource in /home/mardo/public_html/PFC/management/contentManagement/contentManager.php on line 163
+[12-Apr-2007 18:18:12] PHP Warning:  Wrong parameter count for str_replace() in /home/mardo/public_html/PFC/admin/content/saveSection.php on line 10
+[12-Apr-2007 18:18:12] PHP Warning:  Wrong parameter count for str_replace() in /home/mardo/public_html/PFC/admin/content/saveSection.php on line 10
+[12-Apr-2007 18:18:12] PHP Warning:  Wrong parameter count for str_replace() in /home/mardo/public_html/PFC/admin/content/saveSection.php on line 10
+[12-Apr-2007 18:18:12] PHP Warning:  Wrong parameter count for str_replace() in /home/mardo/public_html/PFC/admin/content/saveSection.php on line 10
+[12-Apr-2007 18:18:12] PHP Warning:  Wrong parameter count for str_replace() in /home/mardo/public_html/PFC/admin/content/saveSection.php on line 10
+[12-Apr-2007 18:18:12] PHP Warning:  Wrong parameter count for str_replace() in /home/mardo/public_html/PFC/admin/content/saveSection.php on line 10
+[12-Apr-2007 18:18:12] PHP Warning:  Wrong parameter count for str_replace() in /home/mardo/public_html/PFC/admin/content/saveSection.php on line 10
+[12-Apr-2007 18:18:12] PHP Warning:  Wrong parameter count for str_replace() in /home/mardo/public_html/PFC/admin/content/saveSection.php on line 10
+[12-Apr-2007 18:18:12] PHP Warning:  Wrong parameter count for str_replace() in /home/mardo/public_html/PFC/admin/content/saveSection.php on line 10
+[12-Apr-2007 18:18:12] PHP Warning:  Wrong parameter count for str_replace() in /home/mardo/public_html/PFC/admin/content/saveSection.php on line 10
+[12-Apr-2007 18:18:12] PHP Warning:  Wrong parameter count for str_replace() in /home/mardo/public_html/PFC/admin/content/saveSection.php on line 10
+[12-Apr-2007 18:18:12] PHP Warning:  Wrong parameter count for str_replace() in /home/mardo/public_html/PFC/admin/content/saveSection.php on line 10
+[12-Apr-2007 18:19:12] PHP Parse error:  syntax error, unexpected ';' in /home/mardo/public_html/PFC/admin/content/saveSection.php on line 10
+[12-Apr-2007 18:19:12] PHP Parse error:  syntax error, unexpected ';' in /home/mardo/public_html/PFC/admin/content/saveSection.php on line 10
+[12-Apr-2007 18:19:13] PHP Parse error:  syntax error, unexpected ';' in /home/mardo/public_html/PFC/admin/content/saveSection.php on line 10
+[12-Apr-2007 18:28:16] PHP Parse error:  syntax error, unexpected ';' in /home/mardo/public_html/PFC/admin/content/saveSection.php on line 10
+[12-Apr-2007 18:28:17] PHP Parse error:  syntax error, unexpected ';' in /home/mardo/public_html/PFC/admin/content/saveSection.php on line 10
+[12-Apr-2007 18:28:17] PHP Parse error:  syntax error, unexpected ';' in /home/mardo/public_html/PFC/admin/content/saveSection.php on line 10
+[12-Apr-2007 18:39:18] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/mardo/public_html/PFC/admin/content/saveSection.php on line 18
+[12-Apr-2007 18:39:19] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/mardo/public_html/PFC/admin/content/saveSection.php on line 18
+[12-Apr-2007 18:39:21] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/mardo/public_html/PFC/admin/content/saveSection.php on line 18
+[12-Apr-2007 18:39:21] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/mardo/public_html/PFC/admin/content/saveSection.php on line 18
+[12-Apr-2007 18:40:27] PHP Parse error:  syntax error, unexpected T_ECHO in /home/mardo/public_html/PFC/admin/content/saveSection.php on line 17
+[12-Apr-2007 18:40:27] PHP Parse error:  syntax error, unexpected T_ECHO in /home/mardo/public_html/PFC/admin/content/saveSection.php on line 17
+[12-Apr-2007 18:40:28] PHP Parse error:  syntax error, unexpected T_ECHO in /home/mardo/public_html/PFC/admin/content/saveSection.php on line 17
+[12-Apr-2007 18:51:11] PHP Parse error:  syntax error, unexpected '*' in /home/mardo/public_html/PFC/admin/content/saveSection.php on line 49
+[12-Apr-2007 18:52:14] PHP Parse error:  syntax error, unexpected '*' in /home/mardo/public_html/PFC/admin/content/saveSection.php on line 49
+[12-Apr-2007 18:52:52] PHP Parse error:  syntax error, unexpected '*' in /home/mardo/public_html/PFC/admin/content/saveSection.php on line 49
+[12-Apr-2007 18:52:52] PHP Parse error:  syntax error, unexpected '*' in /home/mardo/public_html/PFC/admin/content/saveSection.php on line 49
+[12-Apr-2007 18:53:58] PHP Parse error:  syntax error, unexpected '*' in /home/mardo/public_html/PFC/admin/content/saveSection.php on line 49
+[17-Apr-2007 19:00:54] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/mardo/public_html/PFC/management/contentManagement/contentManager.php on line 40
+[17-Apr-2007 20:23:40] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/mardo/public_html/PFC/management/contentManagement/contentManager.php on line 169
+[17-Apr-2007 20:24:47] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/mardo/public_html/PFC/management/contentManagement/contentManager.php on line 169
+[17-Apr-2007 20:25:10] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/mardo/public_html/PFC/management/contentManagement/contentManager.php on line 169
+[17-Apr-2007 20:25:10] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/mardo/public_html/PFC/management/contentManagement/contentManager.php on line 169
+[17-Apr-2007 20:25:10] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/mardo/public_html/PFC/management/contentManagement/contentManager.php on line 169
+[18-Apr-2007 02:06:52] PHP Fatal error:  Call to undefined method contentManager::getNumberSubections() in /home/mardo/public_html/PFC/management/contentManagement/contentManager.php on line 214
+[18-Apr-2007 02:07:33] PHP Fatal error:  Call to undefined method contentManager::getNumberSubections() in /home/mardo/public_html/PFC/management/contentManagement/contentManager.php on line 214
+[18-Apr-2007 02:08:00] PHP Fatal error:  Call to undefined method contentManager::getNumberSubections() in /home/mardo/public_html/PFC/management/contentManagement/contentManager.php on line 214
+[18-Apr-2007 02:08:19] PHP Warning:  Missing argument 1 for contentManager::getNumberSubsections(), called in /home/mardo/public_html/PFC/management/contentManagement/contentManager.php on line 214 and defined in /home/mardo/public_html/PFC/management/contentManagement/contentManager.php on line 132
+[20-Apr-2007 19:20:48] PHP Warning:  include(../../management/contentManagement/contentManager.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/mardo/public_html/PFC/admin/content/index.php on line 10
+[20-Apr-2007 19:20:48] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '../../management/contentManagement/contentManager.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/mardo/public_html/PFC/admin/content/index.php on line 10
+[20-Apr-2007 19:20:48] PHP Fatal error:  Class 'contentManager' not found in /home/mardo/public_html/PFC/admin/content/index.php on line 50
+[20-Apr-2007 19:22:20] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'USERDB'@'localhost' (using password: YES) in /home/mardo/public_html/PFC/management/contentManager.php on line 22

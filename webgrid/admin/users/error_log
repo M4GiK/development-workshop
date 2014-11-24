@@ -1,0 +1,11 @@
+[24-Apr-2007 01:02:59] PHP Warning:  include(../../management/usrtManager.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/mardo/public_html/PFC/admin/users/index.php on line 11
+[24-Apr-2007 01:02:59] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '../../management/usrtManager.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/mardo/public_html/PFC/admin/users/index.php on line 11
+[24-Apr-2007 01:02:59] PHP Fatal error:  Call to undefined function  getsectionsinfo() in /home/mardo/public_html/PFC/admin/users/index.php on line 40
+[24-Apr-2007 01:05:33] PHP Warning:  Cannot use a scalar value as an array in /home/mardo/public_html/PFC/management/userManager.php on line 114
+[24-Apr-2007 01:05:33] PHP Warning:  Cannot use a scalar value as an array in /home/mardo/public_html/PFC/management/userManager.php on line 114
+[24-Apr-2007 01:05:33] PHP Warning:  Cannot use a scalar value as an array in /home/mardo/public_html/PFC/management/userManager.php on line 114
+[24-Apr-2007 01:05:33] PHP Warning:  Cannot use a scalar value as an array in /home/mardo/public_html/PFC/management/userManager.php on line 114
+[24-Apr-2007 01:05:33] PHP Warning:  Cannot use a scalar value as an array in /home/mardo/public_html/PFC/management/userManager.php on line 114
+[24-Apr-2007 01:05:33] PHP Warning:  Cannot use a scalar value as an array in /home/mardo/public_html/PFC/management/userManager.php on line 114
+[24-Apr-2007 01:25:34] PHP Parse error:  syntax error, unexpected T_STRING in /home/mardo/public_html/PFC/admin/users/saveUser.php on line 17
+[24-Apr-2007 01:29:48] PHP Fatal error:  Cannot break/continue 1 level in /home/mardo/public_html/PFC/admin/users/saveUser.php on line 20

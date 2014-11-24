@@ -1,0 +1,196 @@
+
+컴컴컴컴컴컴컴컴컴컴횭egin of simulation. Output trace is:컴컴컴컴컴컴컴컴컴컴�
+time= 000000000.00 event= EVN_NEW_HOST  info: Host# 00000, Mips  = 000000017.13
+time= 000000000.00 event= EVN_NEW_HOST  info: Host# 00001, Mips  = 000000014.87
+time= 000000000.00 event= EVN_ENTER     info: Task# 00000, Work  = 000003426.65
+time= 000000000.00 event= EVN_ENTER     info: Task# 00001, Work  = 000017534.88
+time= 000000000.00 event= EVN_ENTER     info: Task# 00002, Work  = 000018209.03
+time= 000000000.00 event= EVN_ENTER     info: Task# 00003, Work  = 000261540.10
+time= 000000000.00 event= EVN_ENTER     info: Task# 00004, Work  = 000143533.32
+time= 000000000.00 event= EVN_ENTER     info: Task# 00005, Work  = 000039782.92
+time= 000000000.00 event= EVN_SCHEDULE  info: Scheduled 00006 Tasks,00002 Hosts
+time= 000000000.00 event= EVN_START     info: Task# 00000  on Host# 00001
+                                              finishTime = 000000230.47
+                                              exeTime    = 000000230.47
+time= 000000000.00 event= EVN_START     info: Task# 00001  on Host# 00000
+                                              finishTime = 000001023.68
+                                              exeTime    = 000001023.68
+time= 000000230.47 event= EVN_FINISH    info: Task# 00000, Host# 00001,BUSY now
+time= 000000230.47 event= EVN_START     info: Task# 00002  on Host# 00001
+                                              finishTime = 000001455.20
+                                              exeTime    = 000001224.72
+time= 000000300.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000000600.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000000900.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000001023.68 event= EVN_FINISH    info: Task# 00001, Host# 00000,BUSY now
+time= 000001023.68 event= EVN_START     info: Task# 00003  on Host# 00000
+                                              finishTime = 000016292.37
+                                              exeTime    = 000015268.69
+time= 000001200.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000001455.20 event= EVN_FINISH    info: Task# 00002, Host# 00001,BUSY now
+time= 000001455.20 event= EVN_START     info: Task# 00004  on Host# 00001
+                                              finishTime = 000011109.13
+                                              exeTime    = 000009653.93
+time= 000001500.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000001800.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000002100.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000002400.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000002700.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000003000.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000003300.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000003600.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000003900.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000004200.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000004500.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000004800.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000005100.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000005400.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000005700.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000006000.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000006300.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000006600.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000006900.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000007200.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000007500.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000007800.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000008100.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000008400.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000008700.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000009000.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000009300.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000009600.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000009900.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000010200.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000010500.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000010800.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000011100.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000011109.13 event= EVN_FINISH    info: Task# 00004, Host# 00001,IDLE now
+time= 000011400.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000011700.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000012000.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000012300.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000012600.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000012900.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000013200.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000013500.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000013800.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000014100.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000014400.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000014700.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000015000.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000015300.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000015600.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000015900.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000016200.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000016292.37 event= EVN_FINISH    info: Task# 00003, Host# 00000,BUSY now
+time= 000016292.37 event= EVN_START     info: Task# 00005  on Host# 00000
+                                              finishTime = 000018614.90
+                                              exeTime    = 000002322.52
+time= 000016500.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000016800.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000017100.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000017400.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000017700.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000018000.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000018300.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000018600.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000018614.90 event= EVN_FINISH    info: Task# 00005, Host# 00000,IDLE now
+컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴�
+
+컴컴컴컴컴컴컴컴컴컴횭egin of simulation. Output trace is:컴컴컴컴컴컴컴컴컴컴�
+time= 000000000.00 event= EVN_NEW_HOST  info: Host# 00000, Mips  = 000000017.13
+time= 000000000.00 event= EVN_NEW_HOST  info: Host# 00001, Mips  = 000000014.87
+time= 000000000.00 event= EVN_ENTER     info: Task# 00000, Work  = 000003426.65
+time= 000000000.00 event= EVN_ENTER     info: Task# 00001, Work  = 000017534.88
+time= 000000000.00 event= EVN_ENTER     info: Task# 00002, Work  = 000018209.03
+time= 000000000.00 event= EVN_ENTER     info: Task# 00003, Work  = 000261540.10
+time= 000000000.00 event= EVN_ENTER     info: Task# 00004, Work  = 000143533.32
+time= 000000000.00 event= EVN_ENTER     info: Task# 00005, Work  = 000039782.92
+time= 000000000.00 event= EVN_SCHEDULE  info: Scheduled 00006 Tasks,00002 Hosts
+time= 000000000.00 event= EVN_START     info: Task# 00000  on Host# 00001
+                                              finishTime = 000000230.47
+                                              exeTime    = 000000230.47
+time= 000000000.00 event= EVN_START     info: Task# 00001  on Host# 00000
+                                              finishTime = 000001023.68
+                                              exeTime    = 000001023.68
+time= 000000230.47 event= EVN_FINISH    info: Task# 00000, Host# 00001,BUSY now
+time= 000000230.47 event= EVN_START     info: Task# 00002  on Host# 00001
+                                              finishTime = 000001455.20
+                                              exeTime    = 000001224.72
+time= 000000300.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000000600.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000000900.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000001023.68 event= EVN_FINISH    info: Task# 00001, Host# 00000,BUSY now
+time= 000001023.68 event= EVN_START     info: Task# 00005  on Host# 00000
+                                              finishTime = 000003346.21
+                                              exeTime    = 000002322.52
+time= 000001200.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000001455.20 event= EVN_FINISH    info: Task# 00002, Host# 00001,BUSY now
+time= 000001455.20 event= EVN_START     info: Task# 00004  on Host# 00001
+                                              finishTime = 000011109.13
+                                              exeTime    = 000009653.93
+time= 000001500.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000001800.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000002100.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000002400.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000002700.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000003000.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000003300.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000003346.21 event= EVN_FINISH    info: Task# 00005, Host# 00000,BUSY now
+time= 000003346.21 event= EVN_START     info: Task# 00003  on Host# 00000
+                                              finishTime = 000018614.90
+                                              exeTime    = 000015268.69
+time= 000003600.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000003900.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000004200.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000004500.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000004800.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000005100.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000005400.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000005700.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000006000.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000006300.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000006600.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000006900.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000007200.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000007500.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000007800.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000008100.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000008400.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000008700.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000009000.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000009300.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000009600.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000009900.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000010200.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000010500.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000010800.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000011100.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000011109.13 event= EVN_FINISH    info: Task# 00004, Host# 00001,IDLE now
+time= 000011400.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000011700.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000012000.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000012300.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000012600.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000012900.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000013200.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000013500.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000013800.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000014100.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000014400.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000014700.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000015000.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000015300.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000015600.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000015900.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000016200.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000016500.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000016800.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000017100.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000017400.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000017700.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000018000.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000018300.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000018600.00 event= EVN_SCHEDULE  info: Not activated!
+time= 000018614.90 event= EVN_FINISH    info: Task# 00003, Host# 00000,IDLE now
+컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴�

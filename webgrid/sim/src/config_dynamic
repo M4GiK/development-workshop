@@ -1,0 +1,19 @@
+-n 512
+-b 384
+-w n(250000000,43750000)
+-i e(7812.50)
+-m n(1000,175)
+-o 32
+-f 27
+-g 37
+-a n(625000,93750)
+-d n(750000,112500)
+-s GA_scheduler(5,h)
+-r false
+-z resource_and_time_interval(c(250000))
+-l sptf
+-x all
+-y all
+-1 1
+-2 1234567890
+

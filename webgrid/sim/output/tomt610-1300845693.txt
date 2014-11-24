@@ -1,0 +1,49 @@
+---------INITIAL PARAMETERS: --------------------------------------------------
+Total #tasks:   [            512] Interarrival: [c(9999999999)]
+Initial #tasks: [            512] Workload:     [n(250000000,43750000)]
+Initial #hosts: [             32] Mips:         [n(1000,175)]
+Max. #hosts:    [             32] Add Hosts:    [c(9999999999)]
+Min. #hosts:    [             31] Del Hosts:    [c(9999999999)]
+# Runs:         [              1] Seed:         [                       123467]
+Trace:          [            yes] Tracefile:    [/home/tomt610/Downloads/htdoc]
+Reschedule:     [            yes] Strategy:     [MA_scheduler(5,h)]
+Host Selection: [            all] Activation:   [time_interval(c(9999999999))]
+Task Selection: [            all] Host Policy:  [fcfs]
+-------------------------------------------------------------------------------
+
+------------MA PARAMETERS: --------------------------------------------------
+Number gen:      [             40]
+Population size: [             26]
+Nb sol to recomb:[              2]
+Nmb recomb:      [             13]
+Nmb mutations:   [             13] Start choice:     [              3]
+Select choice:   [              0]
+Sel extr param:  [       0.000000] Cross choice:     [              0]
+Recomb selection:[              0] Recomb sel extra: [       0.000000]
+Mutate choice:   [              0] Mut extra param:  [       0.000000]
+Mutate selection:[              0] Mut select extra: [       0.000000]
+Nb ls not imp it:[            inf] Add only if bett: [              0]
+-------------------------------------------------------------------------------
+
+MAScheduler working
+-------------------- RUN STATISTICS (avg. over all runs) ----------------------
+Makespan:               [   4145882.86]
+Flowtime:               [1094366515.08]
+Total Potential Time:   [ 132668251.60] Total Idle Time:        [       3.103%]
+Total Busy Time:        [      96.897%] Total Lost Time:        [       0.000%]
+Avg. Host Utilisation:  [      96.949%] Max. Host Utilisation:  [     100.000%]
+Min. Host Utilisation:  [       0.000%] Sd.  Host Utilisation:  [      13.218%]
+Avg.Number Hosts:       [        32.00] Max.Number Hosts:       [        32.00]
+Min.Number Hosts:       [        32.00] Sd. Number Hosts:       [         0.00]
+Avg.Number Free Hosts:  [         0.99] Max.Number Free Hosts:  [        32.00]
+Min.Number Free Hosts:  [         0.00] Sd. Number Free Hosts:  [         4.28]
+Avg.Global Queue Length:[         0.00] Max.Global Queue Length:[       512.00]
+Min.Global Queue Length:[         0.00] Sd. Global Queue Length:[         0.00]
+Avg.Wait Time:          [   1886358.37] Max.Wait Time:          [   3918911.49]
+Min.Wait Time:          [         0.00] Sd.Wait Time:           [   1161975.40]
+Avg.Schedules x Task:   [         1.00] Max.Schedules x Task:   [         1.00]
+Min.Schedules x Task:   [         1.00] Sd.Schedules x Task:    [         0.00]
+#Scheduler Calls:       [         1.00] #Activations:           [         1.00]
+Avg.Activation Interval:[         0.00] Max.Activation Interval:[         0.00]
+Min.Activation Interval:[         0.00] Sd. Activation Interval:[         0.00]
+-------------------------------------------------------------------------------

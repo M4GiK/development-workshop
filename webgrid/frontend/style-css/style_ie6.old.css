@@ -1,0 +1,62 @@
+#idioma {
+	position:relative;
+	margin:0 auto -1.0em auto;
+	width:99.8em;
+	height:1.0em;
+	background-color:#FFFFFF;
+	clear:both;
+	z-index:2;
+}
+#menu {
+	position:relative;
+	margin:0 auto 0 auto;
+	width:99.8em;
+	height:5.0em;
+	background-color:#FFFFFF;
+	clear:both;
+	z-index:3;
+}
+#pie {
+	position:relative;
+	margin:0 auto 0 auto;
+	width:99.8em;
+	height:5.0em;
+	background-color: #FFFFFF;
+	clear:both;
+	z-index:5;
+	
+}
+
+
+.a_menu {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1.1em;
+	color: #101a4b;
+	text-decoration: none;
+	padding-left:1.5em;
+	display: block;
+	width: 5em;
+	
+}
+.a_menu:hover {
+	
+	color: #000000;
+	
+}
+
+.li_submenu {
+	list-style-image: url(../images/icono_amarill.gif);
+	list-style-position: inside;
+	list-style-type: none;
+	list-style-position:inherit;
+	padding-left: 0em;
+	padding-bottom: 1.05em;
+	background-color: #FFFFFF;
+	
+
+	
+}
+.ul_submenu {
+	margin-left:2.0em;
+}
+

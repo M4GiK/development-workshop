@@ -1,0 +1,49 @@
+#idioma {
+	position:relative;
+	margin:0 auto -1.0em auto;
+	width:99.8em;
+	height:1.0em;
+	background-color:#FFFFFF;
+	clear:both;
+	z-index:2;
+}
+
+
+
+.li_submenu {
+	background-image: url(../img/icono_amarill.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	list-style-type: none;
+	padding-left: 1.5em;
+	display:block;
+	/*list-style-position: outside;*/
+	padding-bottom: 1.05em;
+}
+.ul_submenu {
+	
+	position:relative;
+	margin-left:0em;
+
+	
+	/*list-style-image:url(../img/icono_amarill.gif);*/
+	
+}
+
+.ul_noticias {
+	margin-top:-0.5em;
+	margin-left: 0em;
+	margin-bottom:1.0em;
+	position:relative;
+	list-style-image:url(../img/icono_amarill_square.gif);
+	list-style-position:inside;
+}
+.li_noticias {
+	background-image: url(../frontend/img/icono_amarill_square.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	list-style-type: none;
+	padding-left: 1.5em;
+	list-style-position: outside;
+	padding-bottom: 1.05em;
+}

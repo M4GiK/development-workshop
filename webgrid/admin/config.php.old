@@ -1,0 +1,15 @@
+<?
+	define("USERDB","mardo_proyecto");
+	define("PASSWORDDB","proyecto");
+	define("DB","mardo_simweb");
+	define("MYSQLMACHINE","localhost");
+	
+	define("URL","http://weboptserv.lsi.upc.edu/GRIDWEB");
+	define("CONDORPATH","/mfs/condor/bin");
+	
+	define("MAILMACHINE","mail.cosasnuestras.com");
+	define("USERMAIL","davidm@cosasnuestras.com");
+	define("PASSWORDMAIL","martosex");
+	
+	
+?>

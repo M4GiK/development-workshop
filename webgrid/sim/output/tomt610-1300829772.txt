@@ -1,0 +1,25 @@
+---------INITIAL PARAMETERS: --------------------------------------------------
+Total #tasks:   [            514] Interarrival: [c(9999999999)]
+Initial #tasks: [            513] Workload:     [n(250000000,43750000)]
+Initial #hosts: [             32] Mips:         [n(1000,175)]
+Max. #hosts:    [             32] Add Hosts:    [c(9999999999)]
+Min. #hosts:    [             31] Del Hosts:    [c(9999999999)]
+# Runs:         [              2] Seed:         [                       123467]
+Trace:          [            yes] Tracefile:    [/home/tomt610/Downloads/htdoc]
+Reschedule:     [            yes] Strategy:     [GA_scheduler(50,h)]
+Host Selection: [            all] Activation:   [time_interval(c(9999999999))]
+Task Selection: [            all] Host Policy:  [fcfs]
+-------------------------------------------------------------------------------
+
+---------GENETIC PARAMETERS: --------------------------------------------------
+Evolution steps: [              5]
+Population size: [            100] Inter. Pop. Size: [             98]
+Cross Prob.:     [       0.800000] Mutation Prob.:   [       0.400000]
+Start Choice:    [              0]
+Select Choice:   [              0] Select Extra:     [       0.750000]
+Cross Choice:    [              0] Cross Extra:      [       0.500000]
+Mutate Choice:   [              0] Mutate Extra:     [       0.600000]
+Replace if beter [              0] Replace Generat.: [              0]
+-------------------------------------------------------------------------------
+
+0 4149456.49094 0.9703356761126 1048152396.792

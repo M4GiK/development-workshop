@@ -1,0 +1,5 @@
+[24-Apr-2007 23:19:05] PHP Parse error:  syntax error, unexpected '}' in /home/mardo/public_html/PFC/admin/index.php on line 7
+[24-Apr-2007 23:21:23] PHP Warning:  include(../../admin/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/mardo/public_html/PFC/admin/login.php on line 7
+[24-Apr-2007 23:21:23] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '../../admin/config.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/mardo/public_html/PFC/admin/login.php on line 7
+[24-Apr-2007 23:21:23] PHP Warning:  include(../../management/userManager.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/mardo/public_html/PFC/admin/login.php on line 8
+[24-Apr-2007 23:21:23] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '../../management/userManager.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/mardo/public_html/PFC/admin/login.php on line 8

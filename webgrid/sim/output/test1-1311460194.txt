@@ -1,0 +1,13 @@
+---------INITIAL PARAMETERS: --------------------------------------------------
+Total #tasks:   [            512] Interarrival: [c(9999999999)]
+Initial #tasks: [            512] Workload:     [n(250000000,43750000)]
+Initial #hosts: [             32] Mips:         [n(1000,175)]
+Max. #hosts:    [             32] Add Hosts:    [c(9999999999)]
+Min. #hosts:    [             31] Del Hosts:    [c(9999999999)]
+# Runs:         [              1] Seed:         [                       123467]
+Trace:          [            yes] Tracefile:    [/opt/lampp/htdocs/WEBGRID/sim]
+Reschedule:     [            yes] Strategy:     [AdHoc_scheduler(min_min)]
+Host Selection: [            all] Activation:   [time_interval(c(9999999999))]
+Task Selection: [            all] Host Policy:  [fcfs]
+-------------------------------------------------------------------------------
+SchedulerFactory.cc: Unknown scheduling policy (AdHoc_scheduler(min_min))

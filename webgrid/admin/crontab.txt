@@ -1,0 +1,2 @@
+* * * * * lynx -dump http://weboptserv.lsi.upc.edu/WEBGRID/admin/notification.php
+59 23 * * * lynx -dump http://weboptserv.lsi.upc.edu/WEBGRID/admin/inform.php

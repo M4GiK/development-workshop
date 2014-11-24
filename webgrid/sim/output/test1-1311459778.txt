@@ -1,0 +1,22 @@
+Usage: sim [options]
+Options:
+  -n, --ttasks      <integer>    Total number of tasks (jobs)
+  -b, --itasks      <integer>    Initial number of tasks
+  -i, --iatime      <distrib>    Task mean interarrival time
+  -w, --workload    <distrib>    Task mean work load (M.I.)
+  -o, --ihosts      <integer>    Initial number of hosts
+  -m, --mips        <distrib>    Host mean (M.I.P.S.)
+  -a, --addhost     <distrib>    Add-host event distribution
+  -d, --delhost     <distrib>    Del-host event distribution
+  -f, --minhosts    <integer>    Minimum number of hosts
+  -g, --maxhosts    <integer>    Maximum number of hosts
+  -r, --reschedule               Reschedule unstart tasks
+  -s, --strategy    <meta_p>     Scheduler meta policy
+  -x, --hostselect  <host_p>     Host selection policy
+  -y, --taskselect  <task_p>     Task selection policy
+  -z, --activate    <wake_p>     Scheduler wake-up policy
+  -l, --allocpolicy <local_p>    Host local scheduling policy
+  -1, --nruns       <integer>    Number of runs
+  -2, --seed        <integer>    Random seed
+  -t, --trace       <filename>   Enable trace on output file
+  -h, --help                     Show this help

@@ -1,0 +1,174 @@
+Usage: sim -s  <STRATEGY>  [options]
+
+<STRATEGY> must be one of the following:
+  simple_metapolicy            Just assign tasks to machines (t1=m1, t2=m2, etc)
+  AdHoc_scheduler(<HEURISTIC>) Depends on <HEURISTIC>, see below.
+  GA_scheduler(5,h)            Genetic algorithm. Configure with ga_* options.
+  HGS_scheduler(5,h)           Hierarchic Genetic Strategy. Configure with
+                               ga_* and hgsX_* options.
+  SG_scheduler(5,h)            Stackelberg Game scheduler. Configure with
+                               ga_* and sg_* options.
+  TS_scheduler(5,h)            TabuSearch. Configure with ts_* options.
+
+Options for simulator. Apply for all strategies.
+  -n, --ttasks      <integer>    Total number of tasks (jobs)
+  -b, --itasks      <integer>    Initial number of tasks
+  -i, --iatime      <distrib>    Task mean interarrival time
+  -w, --workload    <distrib>    Task mean work load (M.I.)
+  -o, --ihosts      <integer>    Initial number of hosts
+  -m, --mips        <distrib>    Host mean (M.I.P.S.)
+  -a, --addhost     <distrib>    Add-host event distribution
+  -d, --delhost     <distrib>    Del-host event distribution
+  -f, --minhosts    <integer>    Minimum number of hosts
+  -g, --maxhosts    <integer>    Maximum number of hosts
+  -r, --reschedule               Reschedule unstart tasks
+  -x, --hostselect  <host_p>     Host selection policy
+  -y, --taskselect  <task_p>     Task selection policy
+  -z, --activate    <wake_p>     Scheduler wake-up policy
+  -l, --allocpolicy <local_p>    Host local scheduling policy
+  -1, --nruns       <integer>    Number of runs
+  -2, --seed        <integer>    Random seed
+  -t, --trace       <filename>   Enable trace on output file
+  -h, --help                     Show this help
+      --print_debug_info <bool>  Print debug info (useful for debugging)
+
+Options related to *ALL* genetic algorithm types (standard GA,HGS,Stackelberg):
+  parameter:
+  --ga_evolution_steps      <integer> (all) Number of evolution steps
+  --ga_pop_size             <integer> (all) Population size
+  --ga_intermediate_size    <integer> (all) Intermediate population size
+  --ga_prob_cross           <double>  (all) Probability of crossover
+  --ga_prob_mutate          <double>  (all) Probability of mutation
+  --ga_start_choice         <START>   (all) Initial population operator
+  --ga_select_choice        <SELECT>  (all) Selection operator
+  --ga_select_extra         <double>  (all) Extra parameter for selection op.
+  --ga_cross_choice         <CROSS>   (all) Crossover operator
+  --ga_cross_extra          <double>  (all) Extra parameter for crossover op.
+  --ga_mutate_choice        <MUTATE>  (all) Mutation operator
+  --ga_mutate_extra         <double>  (all) Extra parameter for mutation op.
+  --ga_replace_if_better    <bool>    (all) ???
+  --ga_replace_generational <bool>    (all) ???
+
+Options exclusive for StackelbergGame:  --sg_mutation_size        <integer> ???
+  --sg_env_length           <integer> ???
+  --sg_env_choice           <ENV>     ???
+  --sg_enable_game          <bool>    (SG) Enable game at the start of algorithm
+  --sg_leader_factor        <double>  (SG) Factor of tasks assigned to leader
+  --sg_number_followers     <integer> (SG) Number of followers
+  --sg_min_fun_choice       <MINFUN>  (SG) Minimization function for game
+  --sg_independent_GA       <bool>    (SG) Run GA independently for each player
+  --sg_security             <bool>    (SG) Enable security in fitness
+  --sg_security_extra       <double>  (SG) Extra multiplier for security
+  --sg_calc_penalty         <bool>    (SG) Calculate makespan/flowtime penalties
+  --sg_enable_qle           <bool>    (SG) Enable 'exec' in fitness
+  --sg_enable_qlu           <bool>    (SG) Enable 'util' in fitness
+  --sg_enable_qlab          <bool>    (SG) Enable 'abort' in fitness
+  --sg_abort_extra          <double>  (SG) Extra multiplier for abort
+
+Options exclusive for HGS:
+  --hgs_mutation_size        <integer> HGS specific param (?)
+  --hgs_env_length           <double>  ???
+  --hgs_env_choice           <ENV>     ???
+  --hgs_number_branches      <integer> Number branches (1 means no HGS)
+  --hgs_number_metaepochs    <integer> Number of metaepochs for HGS alg.
+
+Additional options for HGS. Override ga_* for given level X of HGS branch.
+X may be [2..4]. By default ga_* params set values for *ALL* levels
+of HGS. For example, if one sets ga_prob_mutate to 0.8, then *ALL* levels of
+will use 0.8 as mutation_probability, unless overridden with hgs2_prob_mutate,
+hgs3_prob_mutate etc. In short: set common parameters with ga_*, and then
+override for each HGS lvl with with hgsX_*. Options here:
+  --hgsX_evolution_steps      <integer> Override ga_evolution_steps for lvl X
+  --hgsX_pop_size             <integer> Override ga_pop_size for lvl X
+  --hgsX_intermediate_size    <integer> Override ga_intermediate_size for lvl X
+  --hgsX_prob_cross           <double>  Override ga_prob_cross for lvl X
+  --hgsX_prob_mutate          <double>  Override ga_prob_mutate for lvl X
+  --hgsX_start_choice         <START>   Override ga_start_choice for lvl X
+  --hgsX_select_choice        <SELECT>  Override ga_select_choice for lvl X
+  --hgsX_select_extra         <double>  Override ga_select_extra for lvl X
+  --hgsX_cross_choice         <CROSS>   Override ga_cross_choice for lvl X
+  --hgsX_cross_extra          <double>  Override ga_cross_extra for lvl X
+  --hgsX_mutate_choice        <MUTATE>  Override ga_mutate_choice for lvl X
+  --hgsX_mutate_extra         <double>  Override ga_mutate_extra for lvl X
+  --hgsX_mutation_size        <integer> Override ga_mutation_size for lvl X
+  --hgsX_replace_if_better    <bool>    Override ga_replace_if_better for lvl X
+  --hgsX_replace_generational <bool>    Override ga_replace_generational for X
+  --hgsX_env_length           <double>  Override ga_env_length for lvl X
+  --hgsX_env_choice           <integer> Override ga_env_choice for lvl X
+
+Parameter section for TabuSearch scheduler.  --tb_nb_iterations       <integer> Number of iterations
+  --tb_start_choice        <HEURYS>  ???
+  --tb_use_delta_function  <bool>    ???
+  --tb_tabu_size           <integer> ???
+  --tb_max_tabu_status     <integer> ???
+  --tb_min_tabu_status     <integer> ???
+  --tb_max_repetitions     <integer> ???
+  --tb_nb_intensifications <integer> ???
+  --tb_nb_diversifications <integer> ???
+  --tb_elite_size          <integer> ???
+  --tb_aspiration_value    <integer> ???
+  --tb_max_nb_swaps        <float>   ???
+  --tb_max_nb_transfers    <float>   ???
+  --tb_max_load_interval   <float>   ???
+  --tb_percent_min_load    <float>   ???
+
+Choices:
+  <HEURISTIC>  min_min       - ???
+               max_min       - ???
+               sufferage     - ???
+               relative_cost - ???
+               ljfr_sjfr     - ???
+               mct           - ???
+               met           - ???
+               sa            - ???
+               kpb           - ???
+               olb           - ???
+               random        - ???
+
+  <START>  0 - StartLJFRSJFR
+           1 - StartMCT
+           2 - StartRandom               (default)
+           3 - StartAll
+           4 - StartMinMin
+           5 - StartRelativeCost
+           6 - StartKPB
+           7 - StartAll2
+
+  <SELECT> 0 - SelectRandom
+           1 - SelectBest
+           2 - SelectLinearRanking       (default)
+           3 - SelectExpRanking
+           4 - SelectBinaryTournament
+           5 - SelectNTournament
+
+  <CROSS>  0 - CrossOnePoint
+           1 - CrossTwoPoints
+           2 - CrossUniform
+           3 - CrossFitnessBased
+           4 - CrossPMX
+           5 - CrossOX
+           6 - CrossCX                   (default)
+
+  <MUTATE> 0 - MutateMove
+           1 - MutateSwap
+           2 - MutateBoth
+           3 - MutateRebalancing         (default)
+
+  <MINFUN> 0 - min_min (default)
+           1 - min_max (broken?)
+           2 - sufferage (broken?)
+
+  <HEURYS> 0 - MinMin_h
+           1 - MaxMin_h
+           2 - Sufferage_h
+           3 - RelativeCost_h
+           4 - LJFRSJFR_h
+           5 - MCT_h                     (default)
+           6 - MET_h
+           7 - SA_h
+           8 - KPB_h
+           9 - OLB_h
+          10 - Random_h
+
+  <ENV>    0 - env_basic                (default)
+           1 - env_minimalizing

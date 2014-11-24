@@ -1,0 +1,228 @@
+---------INITIAL PARAMETERS: --------------------------------------------------
+Total #tasks:   [            512] Interarrival: [c(9999999999)]
+Initial #tasks: [            512] Workload:     [n(250000000,43750000)]
+Initial #hosts: [             32] Mips:         [n(1000,175)]
+Max. #hosts:    [             32] Add Hosts:    [c(9999999999)]
+Min. #hosts:    [             32] Del Hosts:    [c(9999999999)]
+# Runs:         [             10] Seed:         [                    123467890]
+Trace:          [            yes] Tracefile:    [/opt/lampp/htdocs/WEBGRID/sim]
+Reschedule:     [            yes] Strategy:     [NGA_scheduler(50,h)]
+Host Selection: [            all] Activation:   [resource_and_time_interval(c(]
+Task Selection: [            all] Host Policy:  [fcfs]
+-------------------------------------------------------------------------------
+
+---------GENETIC PARAMETERS: --------------------------------------------------
+Evolution steps: [           2000]
+Population size: [             60] Inter. Pop. Size: [             48]
+Cross Prob.:     [       0.800000] Mutation Prob.:   [       0.300000]
+Start Choice:    [              0]
+Select Choice:   [              0] Select Extra:     [       0.600000]
+Cross Choice:    [              0] Cross Extra:      [       0.600000]
+Mutate Choice:   [              0] Mutate Extra:     [       0.500000]
+Replace if beter:[              0] Replace Generat.: [              0]
+Struggle replace:[              0] Struggle ext para:[              2]
+Security:        [        enabled] Security param:   [       3.000000]
+Energy:          [       disabled] Energy case:      [              0]
+-------------------------------------------------------------------------------
+
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+NGA Scheduler working
+-------------------- RUN STATISTICS (avg. over all runs) ----------------------
+Makespan:               [   4186424.00]
+Flowtime:               [1081922195.99]
+Total Potential Time:   [ 133965567.85] Total Idle Time:        [       5.218%]
+Total Busy Time:        [      94.782%] Total Lost Time:        [       0.000%]
+Avg. Host Utilisation:  [      94.820%] Max. Host Utilisation:  [     100.000%]
+Min. Host Utilisation:  [       0.000%] Sd.  Host Utilisation:  [      18.332%]
+Avg.Number Hosts:       [        32.00] Max.Number Hosts:       [        32.00]
+Min.Number Hosts:       [        32.00] Sd. Number Hosts:       [         0.00]
+Avg.Number Free Hosts:  [         1.67] Max.Number Free Hosts:  [        32.00]
+Min.Number Free Hosts:  [         0.00] Sd. Number Free Hosts:  [         5.89]
+Avg.Global Queue Length:[         0.00] Max.Global Queue Length:[       512.00]
+Min.Global Queue Length:[         0.00] Sd. Global Queue Length:[         0.00]
+Avg.Wait Time:          [   1865169.54] Max.Wait Time:          [   3962022.35]
+Min.Wait Time:          [         0.00] Sd.Wait Time:           [   1149056.94]
+Avg.Schedules x Task:   [         7.98] Max.Schedules x Task:   [        16.40]
+Min.Schedules x Task:   [         1.00] Sd.Schedules x Task:    [         4.56]
+#Scheduler Calls:       [        17.20] #Activations:           [        16.40]
+Avg.Activation Interval:[    234742.65] Max.Activation Interval:[    250000.00]
+Min.Activation Interval:[         0.00] Sd. Activation Interval:[     59838.63]
+Energy Case I:          [  19284952.71] Energy Case II:         [  19284952.71]
+Max.Energy:             [  20226160.00] Energy parameter:       [         0.00]
+-------------------------------------------------------------------------------
+------------------------- INDEPENDENT RUN STATISTICS --------------------------
+#Independent Runs:    [         10.000]
+Average makespan:     [    4186423.995]   Minimum makespan:   [    3996536.158]
+Maximum makespan:     [    4365013.422]   Sd. makespan:       [     115167.929]
+Confidence Interval:  [�     82340.955]
+Average flowtime:     [ 1081922195.990]   Minimum flowtime:   [ 1031028280.724]
+Maximum flowtime:     [ 1120316194.771]   Sd. flowtime:       [   25775336.862]
+Confidence Interval:  [�  18428445.171]
+Average utilisation:  [         94.820]   Minimum utilisation:[         93.396]
+Maximum utilisation:  [         96.972]   Sd. utilisation:    [          0.898]
+Confidence Interval:  [�         0.642]
+Average number crashed:       [          0.000]
+
+-------------------------------------------------------------------------------

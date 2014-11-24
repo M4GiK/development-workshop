@@ -1,0 +1,50 @@
+---------INITIAL PARAMETERS: --------------------------------------------------
+Total #tasks:   [            512] Interarrival: [c(9999999999)]
+Initial #tasks: [            512] Workload:     [n(250000000,43750000)]
+Initial #hosts: [             32] Mips:         [n(1000,175)]
+Max. #hosts:    [             32] Add Hosts:    [c(9999999999)]
+Min. #hosts:    [             31] Del Hosts:    [c(9999999999)]
+# Runs:         [              1] Seed:         [                       123467]
+Trace:          [            yes] Tracefile:    [/opt/lampp/htdocs/WEBGRID/sim]
+Reschedule:     [            yes] Strategy:     [GA_scheduler(50,h)]
+Host Selection: [            all] Activation:   [time_interval(c(9999999999))]
+Task Selection: [            all] Host Policy:  [fcfs]
+-------------------------------------------------------------------------------
+
+---------GENETIC PARAMETERS: --------------------------------------------------
+Evolution steps: [              5]
+Population size: [            100] Inter. Pop. Size: [             98]
+Cross Prob.:     [       0.800000] Mutation Prob.:   [       0.400000]
+Start Choice:    [              0]
+Select Choice:   [              0] Select Extra:     [       0.750000]
+Cross Choice:    [              0] Cross Extra:      [       0.500000]
+Mutate Choice:   [              0] Mutate Extra:     [       0.600000]
+Replace if beter [              0] Replace Generat.: [              0]
+Security:        [        enabled] Security param:   [       3.000000]
+Energy:          [       disabled] Energy case:      [              0]
+-------------------------------------------------------------------------------
+
+0 8015199.973896 0.9692636628424 2018675107.056
+-------------------- RUN STATISTICS (avg. over all runs) ----------------------
+Makespan:               [   4147041.71]
+Flowtime:               [1094002917.65]
+Total Potential Time:   [ 132705334.76] Total Idle Time:        [       3.074%]
+Total Busy Time:        [      96.926%] Total Lost Time:        [       0.000%]
+Avg. Host Utilisation:  [      96.922%] Max. Host Utilisation:  [     100.000%]
+Min. Host Utilisation:  [       0.000%] Sd.  Host Utilisation:  [      13.877%]
+Avg.Number Hosts:       [        32.00] Max.Number Hosts:       [        32.00]
+Min.Number Hosts:       [        32.00] Sd. Number Hosts:       [         0.00]
+Avg.Number Free Hosts:  [         0.98] Max.Number Free Hosts:  [        32.00]
+Min.Number Free Hosts:  [         0.00] Sd. Number Free Hosts:  [         4.43]
+Avg.Global Queue Length:[         0.00] Max.Global Queue Length:[       512.00]
+Min.Global Queue Length:[         0.00] Sd. Global Queue Length:[         0.00]
+Avg.Wait Time:          [   1885500.90] Max.Wait Time:          [   3903925.46]
+Min.Wait Time:          [         0.00] Sd.Wait Time:           [   1158804.14]
+Avg.Schedules x Task:   [         1.00] Max.Schedules x Task:   [         1.00]
+Min.Schedules x Task:   [         1.00] Sd.Schedules x Task:    [         0.00]
+#Scheduler Calls:       [         1.00] #Activations:           [         1.00]
+Avg.Activation Interval:[         0.00] Max.Activation Interval:[         0.00]
+Min.Activation Interval:[         0.00] Sd. Activation Interval:[         0.00]
+Energy Case I:          [  37514970.43] Energy Case II:         [  37514970.43]
+Max.Energy:             [  38793567.87] Energy parameter:       [         0.00]
+-------------------------------------------------------------------------------

@@ -1,0 +1,32 @@
+---------INITIAL PARAMETERS: --------------------------------------------------
+Total #tasks:   [            512] Interarrival: [c(9999999999)]
+Initial #tasks: [            512] Workload:     [n(250000000,43750000)]
+Initial #hosts: [             32] Mips:         [e(555)]
+Max. #hosts:    [             32] Add Hosts:    [c(9999999999)]
+Min. #hosts:    [             31] Del Hosts:    [c(9999999999)]
+# Runs:         [              1] Seed:         [                       123467]
+Trace:          [            yes] Tracefile:    [/opt/lampp/htdocs/WEBGRID/sim]
+Reschedule:     [            yes] Strategy:     [GA_scheduler(50,h)]
+Host Selection: [            all] Activation:   [time_interval(c(9999999999))]
+Task Selection: [            all] Host Policy:  [fcfs]
+-------------------------------------------------------------------------------
+
+---------GENETIC PARAMETERS: --------------------------------------------------
+Evolution steps: [              5]
+Population size: [            100] Inter. Pop. Size: [             98]
+Cross Prob.:     [       0.800000] Mutation Prob.:   [       0.400000]
+Start Choice:    [              0]
+Select Choice:   [              0] Select Extra:     [       0.750000]
+Cross Choice:    [              0] Cross Extra:      [       0.500000]
+Mutate Choice:   [              0] Mutate Extra:     [       0.600000]
+Replace if beter [              0] Replace Generat.: [              0]
+Security:        [        enabled] Security param:   [       3.000000]
+Energy:          [       disabled] Energy case:      [              0]
+-------------------------------------------------------------------------------
+
+0 185731415.4988 0.1452800690258 4184870461.179
+0 165825874.0503 0.1605191303396 4183495423.535
+0 165825874.0503 0.1591342613232 4182178438.142
+2 165825874.0503 0.1429800585244 4134919772.665
+3 160445686.7989 0.1722483611618 4269412306.519
+4 146762684.0859 0.225665306783 4732612043.354

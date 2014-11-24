@@ -1,0 +1,5 @@
+* Editar el contenido del fichero config.php que se encuentra en la carpeta admin
+* Crear un usuario en el mySQL y hacer los inserts del fichero schema.sql en la carpeta de administración (editar en el config.php)
+* Crear cuenta de correo electrónico(editar en el config.php)
+* Añadir el usuario apache al condor
+* usuario por defecto de administracion: admin, password: proyecto

@@ -1,0 +1,18 @@
+ejecución:1182981302:
+UPDATE ejecuciones SET status_mail='S' WHERE username='david' AND fecha='1182981076'
+ejecución:1182986042:
+UPDATE ejecuciones SET status_mail='S' WHERE username='david' AND fecha='1182985986'
+ejecución:1183028043:
+UPDATE ejecuciones SET status_mail='S' WHERE username='jesus' AND fecha='1183027895'
+ejecución:1183028341:
+UPDATE ejecuciones SET status_mail='S' WHERE username='david' AND fecha='1183028283'
+ejecución:1183217582:
+UPDATE ejecuciones SET status_mail='S' WHERE username='david' AND fecha='1183217523'
+ejecución:1183316522:
+UPDATE ejecuciones SET status_mail='S' WHERE username='david' AND fecha='1183316497'
+ejecución:1183383422:
+UPDATE ejecuciones SET status_mail='S' WHERE username='david' AND fecha='1183383373'
+ejecución:1184348513:
+UPDATE ejecuciones SET status_mail='S' WHERE username='david' AND fecha='1184348473'
+ejecución:1184920102:
+UPDATE ejecuciones SET status_mail='S' WHERE username='fatos.xhafa' AND fecha='1184920049'

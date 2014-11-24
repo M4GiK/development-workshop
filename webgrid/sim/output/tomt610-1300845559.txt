@@ -1,0 +1,28 @@
+---------INITIAL PARAMETERS: --------------------------------------------------
+Total #tasks:   [            512] Interarrival: [c(9999999999)]
+Initial #tasks: [            512] Workload:     [n(250000000,43750000)]
+Initial #hosts: [             32] Mips:         [n(1000,175)]
+Max. #hosts:    [             32] Add Hosts:    [c(9999999999)]
+Min. #hosts:    [             31] Del Hosts:    [c(9999999999)]
+# Runs:         [              1] Seed:         [                       123467]
+Trace:          [            yes] Tracefile:    [/home/tomt610/Downloads/htdoc]
+Reschedule:     [            yes] Strategy:     [MA_scheduler]
+Host Selection: [            all] Activation:   [time_interval(c(9999999999))]
+Task Selection: [            all] Host Policy:  [fcfs]
+-------------------------------------------------------------------------------
+
+------------MA PARAMETERS: --------------------------------------------------
+Number gen:      [             40]
+Population size: [             26]
+Nb sol to recomb:[              2]
+Nmb recomb:      [             13]
+Nmb mutations:   [             13] Start choice:     [              3]
+Select choice:   [              0]
+Sel extr param:  [       0.000000] Cross choice:     [              0]
+Recomb selection:[              0] Recomb sel extra: [       0.000000]
+Mutate choice:   [              0] Mut extra param:  [       0.000000]
+Mutate selection:[              0] Mut select extra: [       0.000000]
+Nb ls not imp it:[            inf] Add only if bett: [              0]
+-------------------------------------------------------------------------------
+
+SchedulerFactory.cc: 2 parameters needed

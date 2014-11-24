@@ -1,0 +1,470 @@
+body {
+	font-size: 62.5%;
+	background-color: #CCCCCC;
+	margin:0em auto 0em auto;
+	
+}
+
+h2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1.1em;
+	color: #666666;
+	text-align: center;
+	padding-bottom: 0.5em;
+	border-bottom-width: 0.1em;
+	border-bottom-style: solid;
+	border-bottom-color: #666666;
+}
+
+.tablanoticias {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1.1px;
+	font-weight: bold;
+	color: #666666;
+	border: 0.3em solid #666666;
+}
+
+
+#contenido {
+	width:100%;
+	position:relative;	
+}
+
+#cabecera {
+	position:relative;
+	margin:4.0em auto 0 auto;
+	width:99.8em;
+	height:10.7em;
+	z-index:1;
+	background-color:#FFFFFF;
+	clear:both;
+	background-image: url(../img/fondo.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+    #logo{
+	position:relative;
+	margin:0 auto 0 auto;
+	float: left;
+	clear:both;
+	z-index:1;
+	padding-top:2.9em;
+	padding-left:6.5em;
+    }
+#idioma {
+	position:relative;
+	width:99.8em;
+	height:3em;
+	background-color:#FFFFFF;
+	clear:both;
+	z-index:2;
+	margin-top: -1.5em;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	
+}
+
+
+#menu {
+	position:relative;
+	margin:-1.5em auto 0 auto;
+	width:99.8em;
+	height:5.0em;
+	background-color:#FFFFFF;
+	clear:both;
+	z-index:3;
+}
+#central {
+	position:relative;
+	margin:0 auto 0 auto;	
+	width:99.8em;
+	background-color: #ffffff;
+	clear:both;
+	/*height:35.0em;*/
+	overflow:hidden;
+	z-index:4;
+	
+}
+#submenu {
+	position:relative;
+	margin:0 auto 0 auto;
+	float: left;
+	width:15.5em;
+	z-index:1;
+	background-color:#ffffff;
+	padding-left:3.0em;
+}
+#contenido_central {
+	position:relative;
+	margin:0 auto 0 auto;
+	float: left;
+	width:57.0em;
+	z-index:2;
+	background-color:#ffffff;
+	padding-left:3.0em;
+	padding-right:2em;
+	
+}
+#lateral_derecho {
+	position:relative;
+	margin:0 auto 0 auto;
+	float:left;
+	width:18.9em;
+	z-index:3;
+	background-color:#ffffff;
+	padding-bottom:3.0em;
+	overflow:hidden;
+}
+#noticias {
+	position:relative;
+	margin:0.9em auto 0.9em auto;
+	width:13.9em;
+	float:left;
+	clear:both;
+	z-index:1;
+	background-color:#ffffff;
+	border: 0.1em solid #CCCCCC;
+	padding: 0.2em;
+	background-image: url(../img/fondo_noticies_degradat.gif);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+}
+
+#calendario {
+	position:relative;
+	margin:0em 0em 0em 0em;
+	clear:both;
+	width:13.9em;
+	z-index:2;
+	background-color:#ffffff;
+}
+#pie {
+	position:relative;
+	width:99.8em;
+	height:7em;
+	background-color: #FFFFFF;
+	clear:both;
+	z-index:5;
+	/*margin-top: -1.5em;*/
+	margin-top:0em;
+	padding:1em;
+	margin-right: auto;
+	margin-bottom: 2.0em;
+	margin-left: auto;
+	
+}
+#pie img 
+{
+	border:0;
+}
+.ul_menu
+{
+	list-style:none;
+}	
+.ul_idioma {
+	padding-left: 65em;
+	padding-top: 0.8em;
+}
+.li_menu {
+	
+	float: left;
+	border: 0.1em solid #666666;
+	margin:1em;
+	padding:0em;
+}
+
+
+.li_peu {
+	float: left;
+	list-style-type: none;
+	padding-right: 2em;
+}
+
+
+
+.ul_peu {
+	padding-left: 30em;
+	padding-top: 2.0em;
+}
+h1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #101a4b;
+}
+
+.link_idioma {
+	position:relative;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 0.9em;
+	font-weight: normal;
+	color: #666666;
+	text-decoration: none;
+	display:block;
+	padding-left: 1.5em;
+	
+}
+
+.link_idioma:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 0.9em;
+	font-weight: normal;
+	color: #101A4B;
+
+}
+
+.link_idioma_sel {
+	position:relative;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 0.9em;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+	display:block;
+	padding-left: 1.5em;
+	
+}
+.li_idioma {
+	background-image: url(../img/icono_azul.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	float:left;
+	list-style-type: none;
+	padding-right: 1.0em;
+}
+p {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1.0em;
+	font-weight: normal;
+	color: #000000;
+}
+.separador {
+	height: 0.9em;
+	width: 11.5em;
+}
+.separador_fondo {
+	background-image: url(../img/fondo_submenu_degradat.gif);
+	background-repeat: no-repeat;
+	height: 0.9em;
+	width: 11.5em;
+}
+.li_submenu {
+	background-image: url(../img/icono_amarill.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	list-style-type: none;
+	padding-left: 1.5em;
+	
+	/*list-style-position: outside;*/
+	padding-bottom: 1.05em;
+}
+.ul_submenu {
+	/*margin-left: -3.7em;*/
+	padding:0.5em;
+	/*list-style-image:url(../img/icono_amarill.gif);
+	list-style-position:inside;*/
+}
+.a_menu {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1.1em;
+	color: #101a4b;
+	text-decoration: none;
+	padding-left:1.5em;
+	padding-bottom:0.2em;
+	display: block;
+	width: 9em;
+	background-image: url(../img/fondo_menu_degradat.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	
+}
+.a_menu_sel {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1.1em;
+	color: #000000;
+	text-decoration: none;
+	padding-left:1.5em;
+	padding-bottom:0.2em;
+	display: block;
+	width: 9em;
+	background-image: url(../img/fondo_menu_degradat_groc.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	/*background-color:#ffcc66;
+	background-image:none;*/
+	
+}
+.a_menu:hover {
+	
+	color: #000000;
+	background-image: url(../img/fondo_menu_degradat_groc.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	
+}
+.ul_noticias {
+	/*margin-left: -3.7em;*/
+	padding:0.5em;
+	/*list-style-image:url(../img/icono_amarill_square.gif);
+	list-style-position:inside;*/
+	
+}
+.li_noticias {
+	/*list-style-image: url(../frontend/img/icono_amarill.gif);
+	list-style-position: outside;
+	list-style-type: none;*/
+	background-image: url(../img/icono_amarill_square.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	/*list-style-type: none;*/
+
+	padding-left: 1.5em;
+	padding-bottom: 1.05em;
+}
+
+.th_calendario {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1.1em;
+	font-weight: normal;
+	color: #000000;
+	background-color: #CCCCCC;
+	text-align: center;
+	border-top: none;
+	border-right: 0.1em solid #101a4b;
+	border-bottom: 0.1em solid;
+	border-left: none;
+}
+.td_calendario {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1.1em;
+	font-weight: normal;
+	color: #000000;
+	border-top: none;
+	border-right: 0.1em solid #101a4b;
+	border-bottom: 0.1em solid;
+	border-left: none;
+	text-align: center;
+}
+
+.tabla_calendario {
+	width: 14.4em;
+	border: 0.1em solid #101a4b;
+	margin-top: 2em;
+}
+.th_calendariofinal {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1.1em;
+	font-weight: normal;
+	color: #000000;
+	background-color: #CCCCCC;
+	text-align: center;
+	border-top: none;
+	border-right: none;
+	border-bottom: 0.1em solid #101a4b;
+	border-left: none;
+}
+.td_calendariofinal {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1.1em;
+	font-weight: normal;
+	color: #000000;
+	border-top: none;
+	border-right: none;
+	border-bottom: 0.1em solid #101a4b;
+	border-left: none;
+	text-align: center;
+}
+.td_calendarioSelec {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1.1em;
+	font-weight: normal;
+	color: #000000;
+	border-top: none;
+	border-right: 0.1em solid #101a4b;
+	border-bottom: 0.1em solid;
+	border-left: none;
+	text-align: center;
+	background-color: #FFCC66;
+}
+.td_calendarioSelec_final {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1.1em;
+	font-weight: normal;
+	color: #000000;
+	border-top: none;
+	border-right: none;
+	border-bottom: 0.1em solid;
+	border-left: none;
+	text-align: center;
+	background-color: #FFCC66;
+}
+.a_calendario {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1.0em;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: underline;
+	text-align: center;
+}
+.td_mes {
+	font-family: Arial, Helvetica, sans-serif, "Arial Narrow";
+	font-size: 1.1em;
+	color: #000000;
+	text-align: center;
+}
+
+.a_calendario:hover {
+	color:#666666;
+}
+
+.td_calendariofinalSelec {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1.1em;
+	font-weight: normal;
+	color: #000000;
+	border-top: none;
+	border-right: none;
+	border-bottom: 0.1em solid #101a4b;
+	border-left: none;
+	text-align: center;
+	background-color: #FFCC66;
+}
+.a_calendarioMes {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+	text-align: center;
+
+}
+
+.a_calendarioMes:hover {
+	
+	color:#666666;
+	
+}
+.enllac {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1.05em;
+	color: #666666;
+	text-decoration: none;
+	
+	/*display:block;*/
+}
+.enllac:hover {
+color: #000000;
+	
+}
+
+.enllac_sel {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size: 1.05em;
+	color: #000000;
+	text-decoration: none;
+	display: block;
+}

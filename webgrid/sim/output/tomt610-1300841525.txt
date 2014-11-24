@@ -1,0 +1,72 @@
+---------INITIAL PARAMETERS: --------------------------------------------------
+Total #tasks:   [            512] Interarrival: [c(9999999999)]
+Initial #tasks: [            512] Workload:     [n(250000000,43750000)]
+Initial #hosts: [             32] Mips:         [n(1000,175)]
+Max. #hosts:    [             32] Add Hosts:    [c(9999999999)]
+Min. #hosts:    [             32] Del Hosts:    [c(9999999999))]
+# Runs:         [             10] Seed:         [                    123467890]
+Trace:          [            yes] Tracefile:    [/home/tomt610/Downloads/htdoc]
+Reschedule:     [             no] Strategy:     [CMA_scheduler(5,l)]
+Host Selection: [            all] Activation:   [resource_and_time_interval(c(]
+Task Selection: [            all] Host Policy:  [fcfs]
+-------------------------------------------------------------------------------
+
+------------CMA PARAMETERS: --------------------------------------------------
+Number gen:      [             40]
+Population hei:  [              6]
+Population wid:  [              6]
+Nb sol to recomb:[              2]
+Nmb recomb:      [             13] Nmb mutations:    [             13]
+Start choice:    [              3]
+Neighb pattern:  [              1] Recomb order:     [              0]
+Mutation order:  [              0] Recombine choice: [              0]
+Recomb select:   [              0] Rec select extra: [       0.000000]
+Mutate choice:   [              0] Mut extra param:  [       0.000000]
+Max not imp iter:[            inf] Add only if bett: [              0]
+-------------------------------------------------------------------------------
+
+CMA Starting
+CMA Starting
+CMA Starting
+CMA Starting
+CMA Starting
+CMA Starting
+CMA Starting
+CMA Starting
+CMA Starting
+CMA Starting
+-------------------- RUN STATISTICS (avg. over all runs) ----------------------
+Makespan:               [   4443813.79]
+Flowtime:               [1091587160.96]
+Total Potential Time:   [ 142202041.28] Total Idle Time:        [       9.821%]
+Total Busy Time:        [      90.179%] Total Lost Time:        [       0.000%]
+Avg. Host Utilisation:  [      90.001%] Max. Host Utilisation:  [     100.000%]
+Min. Host Utilisation:  [       0.000%] Sd.  Host Utilisation:  [      20.623%]
+Avg.Number Hosts:       [        32.00] Max.Number Hosts:       [        32.00]
+Min.Number Hosts:       [        32.00] Sd. Number Hosts:       [         0.00]
+Avg.Number Free Hosts:  [         3.14] Max.Number Free Hosts:  [        32.00]
+Min.Number Free Hosts:  [         0.00] Sd. Number Free Hosts:  [         6.54]
+Avg.Global Queue Length:[         0.00] Max.Global Queue Length:[       512.00]
+Min.Global Queue Length:[         0.00] Sd. Global Queue Length:[         0.00]
+Avg.Wait Time:          [   1883390.67] Max.Wait Time:          [   4199630.59]
+Min.Wait Time:          [         0.00] Sd.Wait Time:           [   1178280.72]
+Avg.Schedules x Task:   [         1.00] Max.Schedules x Task:   [         1.00]
+Min.Schedules x Task:   [         1.00] Sd.Schedules x Task:    [         0.00]
+#Scheduler Calls:       [         1.00] #Activations:           [         1.00]
+Avg.Activation Interval:[         0.00] Max.Activation Interval:[         0.00]
+Min.Activation Interval:[         0.00] Sd. Activation Interval:[         0.00]
+-------------------------------------------------------------------------------
+------------------------- INDEPENDENT RUN STATISTICS --------------------------
+#Independent Runs:    [         10.000]
+Average makespan:     [    4443813.790]   Minimum makespan:   [    4005049.425]
+Maximum makespan:     [    5059807.270]   Sd. makespan:       [     383566.587]
+Confidence Interval:  [�    274236.409]
+Average flowtime:     [ 1091587160.959]   Minimum flowtime:   [ 1052196550.873]
+Maximum flowtime:     [ 1124079577.088]   Sd. flowtime:       [   22926899.663]
+Confidence Interval:  [�  16391914.319]
+Average utilisation:  [         90.001]   Minimum utilisation:[         78.622]
+Maximum utilisation:  [         97.352]   Sd. utilisation:    [          8.198]
+Confidence Interval:  [�         5.861]
+Average number crashed:       [          0.000]
+
+-------------------------------------------------------------------------------

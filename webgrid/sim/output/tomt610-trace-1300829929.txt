@@ -1,0 +1,86 @@
+
+���������������������Begin of simulation. Output trace is:���������������������
+time= 000000000.00 event= EVN_NEW_HOST  info: Host# 00000, Mips  = 000001045.03
+time= 000000000.00 event= EVN_NEW_HOST  info: Host# 00001, Mips  = 000001097.67
+time= 000000000.00 event= EVN_NEW_HOST  info: Host# 00002, Mips  = 000001066.67
+time= 000000000.00 event= EVN_NEW_HOST  info: Host# 00003, Mips  = 000001259.82
+time= 000000000.00 event= EVN_NEW_HOST  info: Host# 00004, Mips  = 000001009.44
+time= 000000000.00 event= EVN_NEW_HOST  info: Host# 00005, Mips  = 000001058.22
+time= 000000000.00 event= EVN_NEW_HOST  info: Host# 00006, Mips  = 000001239.84
+time= 000000000.00 event= EVN_NEW_HOST  info: Host# 00007, Mips  = 000001224.03
+time= 000000000.00 event= EVN_NEW_HOST  info: Host# 00008, Mips  = 000001405.70
+time= 000000000.00 event= EVN_NEW_HOST  info: Host# 00009, Mips  = 000001086.90
+time= 000000000.00 event= EVN_NEW_HOST  info: Host# 00010, Mips  = 000001049.78
+time= 000000000.00 event= EVN_NEW_HOST  info: Host# 00011, Mips  = 000001015.17
+time= 000000000.00 event= EVN_NEW_HOST  info: Host# 00012, Mips  = 000001049.87
+time= 000000000.00 event= EVN_NEW_HOST  info: Host# 00013, Mips  = 000001185.89
+time= 000000000.00 event= EVN_NEW_HOST  info: Host# 00014, Mips  = 000001024.00
+time= 000000000.00 event= EVN_NEW_HOST  info: Host# 00015, Mips  = 000001065.93
+time= 000000000.00 event= EVN_NEW_HOST  info: Host# 00016, Mips  = 000001264.58
+time= 000000000.00 event= EVN_NEW_HOST  info: Host# 00017, Mips  = 000001266.93
+time= 000000000.00 event= EVN_NEW_HOST  info: Host# 00018, Mips  = 000001053.18
+time= 000000000.00 event= EVN_NEW_HOST  info: Host# 00019, Mips  = 000001080.88
+time= 000000000.00 event= EVN_NEW_HOST  info: Host# 00020, Mips  = 000001185.76
+time= 000000000.00 event= EVN_NEW_HOST  info: Host# 00021, Mips  = 000001114.85
+time= 000000000.00 event= EVN_NEW_HOST  info: Host# 00022, Mips  = 000001408.94
+time= 000000000.00 event= EVN_NEW_HOST  info: Host# 00023, Mips  = 000001081.37
+time= 000000000.00 event= EVN_NEW_HOST  info: Host# 00024, Mips  = 000001025.53
+time= 000000000.00 event= EVN_NEW_HOST  info: Host# 00025, Mips  = 000001003.32
+time= 000000000.00 event= EVN_NEW_HOST  info: Host# 00026, Mips  = 000001264.66
+time= 000000000.00 event= EVN_NEW_HOST  info: Host# 00027, Mips  = 000001021.92
+time= 000000000.00 event= EVN_NEW_HOST  info: Host# 00028, Mips  = 000001272.96
+time= 000000000.00 event= EVN_NEW_HOST  info: Host# 00029, Mips  = 000001179.85
+time= 000000000.00 event= EVN_NEW_HOST  info: Host# 00030, Mips  = 000001060.96
+time= 000000000.00 event= EVN_NEW_HOST  info: Host# 00031, Mips  = 000001074.85
+time= 000000000.00 event= EVN_ENTER     info: Task# 00000, Work  = 256086078.41
+time= 000000000.00 event= EVN_ENTER     info: Task# 00001, Work  = 273662916.10
+time= 000000000.00 event= EVN_ENTER     info: Task# 00002, Work  = 268285839.54
+time= 000000000.00 event= EVN_ENTER     info: Task# 00003, Work  = 263562963.10
+time= 000000000.00 event= EVN_ENTER     info: Task# 00004, Work  = 279297354.64
+time= 000000000.00 event= EVN_ENTER     info: Task# 00005, Work  = 307842092.21
+time= 000000000.00 event= EVN_ENTER     info: Task# 00006, Work  = 278352957.25
+time= 000000000.00 event= EVN_ENTER     info: Task# 00007, Work  = 250716390.45
+time= 000000000.00 event= EVN_ENTER     info: Task# 00008, Work  = 251694746.43
+time= 000000000.00 event= EVN_ENTER     info: Task# 00009, Work  = 309634333.49
+time= 000000000.00 event= EVN_SCHEDULE  info: Scheduled 00010 Tasks,00032 Hosts
+time= 000000000.00 event= EVN_START     info: Task# 00008  on Host# 00007
+                                              finishTime = 000205628.27
+                                              exeTime    = 000205628.27
+time= 000000000.00 event= EVN_START     info: Task# 00000  on Host# 00006
+                                              finishTime = 000206547.24
+                                              exeTime    = 000206547.24
+time= 000000000.00 event= EVN_START     info: Task# 00007  on Host# 00013
+                                              finishTime = 000211416.85
+                                              exeTime    = 000211416.85
+time= 000000000.00 event= EVN_START     info: Task# 00005  on Host# 00008
+                                              finishTime = 000218995.86
+                                              exeTime    = 000218995.86
+time= 000000000.00 event= EVN_START     info: Task# 00006  on Host# 00017
+                                              finishTime = 000219705.81
+                                              exeTime    = 000219705.81
+time= 000000000.00 event= EVN_START     info: Task# 00002  on Host# 00016
+                                              finishTime = 000212153.44
+                                              exeTime    = 000212153.44
+time= 000000000.00 event= EVN_START     info: Task# 00001  on Host# 00026
+                                              finishTime = 000216391.99
+                                              exeTime    = 000216391.99
+time= 000000000.00 event= EVN_START     info: Task# 00009  on Host# 00022
+                                              finishTime = 000219764.41
+                                              exeTime    = 000219764.41
+time= 000000000.00 event= EVN_START     info: Task# 00004  on Host# 00028
+                                              finishTime = 000219408.03
+                                              exeTime    = 000219408.03
+time= 000000000.00 event= EVN_START     info: Task# 00003  on Host# 00003
+                                              finishTime = 000209207.55
+                                              exeTime    = 000209207.55
+time= 000205628.27 event= EVN_FINISH    info: Task# 00008, Host# 00007,IDLE now
+time= 000206547.24 event= EVN_FINISH    info: Task# 00000, Host# 00006,IDLE now
+time= 000209207.55 event= EVN_FINISH    info: Task# 00003, Host# 00003,IDLE now
+time= 000211416.85 event= EVN_FINISH    info: Task# 00007, Host# 00013,IDLE now
+time= 000212153.44 event= EVN_FINISH    info: Task# 00002, Host# 00016,IDLE now
+time= 000216391.99 event= EVN_FINISH    info: Task# 00001, Host# 00026,IDLE now
+time= 000218995.86 event= EVN_FINISH    info: Task# 00005, Host# 00008,IDLE now
+time= 000219408.03 event= EVN_FINISH    info: Task# 00004, Host# 00028,IDLE now
+time= 000219705.81 event= EVN_FINISH    info: Task# 00006, Host# 00017,IDLE now
+time= 000219764.41 event= EVN_FINISH    info: Task# 00009, Host# 00022,IDLE now
+�������������������������������������������������������������������������������

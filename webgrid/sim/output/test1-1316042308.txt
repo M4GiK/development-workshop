@@ -1,0 +1,83 @@
+---------INITIAL PARAMETERS: --------------------------------------------------
+Total #tasks:   [            512] Interarrival: [c(9999999999)]
+Initial #tasks: [            512] Workload:     [n(250000000,43750000)]
+Initial #hosts: [             32] Mips:         [n(1000,175)]
+Max. #hosts:    [             32] Add Hosts:    [c(9999999999)]
+Min. #hosts:    [             31] Del Hosts:    [c(9999999999)]
+# Runs:         [             10] Seed:         [                       123467]
+Trace:          [            yes] Tracefile:    [/opt/lampp/htdocs/WEBGRID/sim]
+Reschedule:     [            yes] Strategy:     [GA_scheduler(50,h)]
+Host Selection: [            all] Activation:   [time_interval(c(9999999999))]
+Task Selection: [            all] Host Policy:  [fcfs]
+-------------------------------------------------------------------------------
+
+---------GENETIC PARAMETERS: --------------------------------------------------
+Evolution steps: [              5]
+Population size: [            100] Inter. Pop. Size: [             98]
+Cross Prob.:     [       0.800000] Mutation Prob.:   [       0.400000]
+Start Choice:    [              0]
+Select Choice:   [              0] Select Extra:     [       0.750000]
+Cross Choice:    [              0] Cross Extra:      [       0.500000]
+Mutate Choice:   [              0] Mutate Extra:     [       0.600000]
+Replace if beter [              0] Replace Generat.: [              0]
+Security:        [        enabled] Security param:   [       3.000000]
+Energy:          [       disabled] Energy case:      [              0]
+-------------------------------------------------------------------------------
+
+0 7936570.7596 0.9692636628424 1998871878.428
+37317706.87127,37317706.87127
+0 7005324.396657 0.9658785600199 1751803622.85
+32832517.49564,32832517.49564
+0 7449186.911303 0.9761069974543 1882100346.598
+35254918.99687,35254918.99687
+0 6948452.640005 0.9575771608555 1727975943.359
+32306979.60958,32306979.60958
+0 4312769.747634 0.9380112057864 1048336148.941
+19673433.72882,19673433.72882
+0 7592108.324957 0.9687534562062 1905559434.014
+35680654.41056,35680654.41056
+0 7752521.37748 0.9699057655056 1949446586.009
+36474658.64581,36474658.64581
+0 7790966.833819 0.9694228951332 1960926804.495
+36638648.28327,36638648.28327
+0 7870713.04176 0.9731606122275 1987164613.591
+37145760.53613,37145760.53613
+0 5011520.802092 0.9497941627635 1233115883.412
+23126042.56846,23126042.56846
+-------------------- RUN STATISTICS (avg. over all runs) ----------------------
+Makespan:               [   5057967.08]
+Flowtime:               [1110068506.37]
+Total Potential Time:   [ 161854946.63] Total Idle Time:        [      16.623%]
+Total Busy Time:        [      83.377%] Total Lost Time:        [       0.000%]
+Avg. Host Utilisation:  [      83.403%] Max. Host Utilisation:  [     100.000%]
+Min. Host Utilisation:  [       0.000%] Sd.  Host Utilisation:  [      24.110%]
+Avg.Number Hosts:       [        32.00] Max.Number Hosts:       [        32.00]
+Min.Number Hosts:       [        32.00] Sd. Number Hosts:       [         0.00]
+Avg.Number Free Hosts:  [         5.32] Max.Number Free Hosts:  [        32.00]
+Min.Number Free Hosts:  [         0.00] Sd. Number Free Hosts:  [         7.72]
+Avg.Global Queue Length:[         0.00] Max.Global Queue Length:[       512.00]
+Min.Global Queue Length:[         0.00] Sd. Global Queue Length:[         0.00]
+Avg.Wait Time:          [   1917922.87] Max.Wait Time:          [   4813484.99]
+Min.Wait Time:          [         0.00] Sd.Wait Time:           [   1233622.39]
+Avg.Schedules x Task:   [         1.00] Max.Schedules x Task:   [         1.00]
+Min.Schedules x Task:   [         1.00] Sd.Schedules x Task:    [         0.00]
+#Scheduler Calls:       [         1.00] #Activations:           [         1.00]
+Avg.Activation Interval:[         0.00] Max.Activation Interval:[         0.00]
+Min.Activation Interval:[         0.00] Sd. Activation Interval:[         0.00]
+Max.Energy:             [  33720345.26] Energy parameter:       [         0.00]
+Energy Case I:          [  32645132.11] Energy Case II:         [  32645132.11]
+-------------------------------------------------------------------------------
+------------------------- INDEPENDENT RUN STATISTICS --------------------------
+#Independent Runs:    [         10.000]
+Average makespan:     [    5057967.082]   Minimum makespan:   [    4034566.556]
+Maximum makespan:     [    7301311.230]   Sd. makespan:       [    1244581.143]
+Confidence Interval:  [�    889831.061]
+Average flowtime:     [ 1110068506.368]   Minimum flowtime:   [ 1068278083.847]
+Maximum flowtime:     [ 1167766604.218]   Sd. flowtime:       [   26850998.838]
+Confidence Interval:  [�  19197505.061]
+Average utilisation:  [         83.403]   Minimum utilisation:[         55.675]
+Maximum utilisation:  [         97.628]   Sd. utilisation:    [         17.400]
+Confidence Interval:  [�        12.441]
+Average number crashed:       [          0.000]
+
+-------------------------------------------------------------------------------
